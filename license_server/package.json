@@ -4,8 +4,8 @@
   "description": "Upload Bridge License Server with ECDSA P-256 signing",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node api.js && node server.js",
+    "dev": "node api.js && nodemon server.js",
     "test": "jest",
     "generate-keys": "node scripts/generate-keys.js"
   },
@@ -33,4 +33,3 @@
     "node": ">=16.0.0"
   }
 }
-
