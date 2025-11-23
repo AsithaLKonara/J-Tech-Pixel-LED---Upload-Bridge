@@ -1,57 +1,117 @@
 # Python
+
 __pycache__/
+
 *.py[cod]
+
 *$py.class
+
 *.so
+
 .Python
+
 *.egg-info/
+
 dist/
+
 build/
+
 *.egg
+
 .venv/
+
 venv/
+
 ENV/
+
 env/
 
+
+
 # IDE
+
 .vscode/
+
 .idea/
+
 *.swp
+
 *.swo
+
 *~
+
 .cursor/
 
+
+
 # OS
+
 .DS_Store
+
 Thumbs.db
+
 *.log
 
+
+
 # Testing
+
 .pytest_cache/
+
 .coverage
+
 htmlcov/
+
 *.cover
+
 .hypothesis/
 
+
+
 # Jupyter
+
 .ipynb_checkpoints/
 
+
+
 # Project specific
+
 *.ledproj.backup
+
 *.tmp
+
 test_results*.json
+
 pattern_results.txt
 
+
+
 # Docker
+
 *.dockerignore
 
+
+
 # Build artifacts
+
 *.bin
+
 *.hex
+
 *.elf
+
 *.o
+
 *.a
 
+
+
 # Firmware build outputs
+
 firmware_builds/
+
 build_outputs/
+
+config.bat
+
+node_modules
