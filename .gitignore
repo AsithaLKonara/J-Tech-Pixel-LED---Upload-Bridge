@@ -3,8 +3,6 @@
 # ============================================================
 # ENVIRONMENT & CONFIGURATION
 # ============================================================
-.env
-.env.local
 .env.*.local
 .env.backup
 apps/web-dashboard/.env
@@ -288,3 +286,4 @@ apps/upload-bridge/.venv/
 apps/upload-bridge/venv/
 apps/upload-bridge/env/
 apps/upload-bridge/ENV/
+config.bat
